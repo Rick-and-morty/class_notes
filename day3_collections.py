@@ -1,4 +1,8 @@
 
+my_string = "max is awesome"
+my_string = my_string.split(" ")
+print(my_string)
+
 my_list = ["tyler", 23, ["the future", "burgulars"]]
 
 print(my_list)
@@ -19,9 +23,9 @@ print(my_dicitionary["name"])
 print(my_dicitionary["age"])
 print(my_dicitionary["fears"])
 
-print(dir(my_list))
-print(help(my_list))
-print(help(my_dicitionary))
+(dir(my_list))
+(help(my_list))
+(help(my_dicitionary))
 
 
 print(my_dicitionary.keys())
