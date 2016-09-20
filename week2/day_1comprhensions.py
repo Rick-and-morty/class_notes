@@ -3,7 +3,7 @@ list_of_numbers = [9, 10, 5, 100, 23, 2]
 half_values = []
 
 for x in list_of_numbers:
-    half_of_x = x / 2
+    half_of_x = x
     # // is floor division 1/2 = .5 10/5 = 5.0
     half_values.append(half_of_x)
 
@@ -54,4 +54,4 @@ matrix = [["_", "x", "_"],
           ["o", "x", "o"],
           ["o", "x", "o"]]
 target_column = [row[1]for row in matrix]
-print(target_column) 
+print(target_column)
